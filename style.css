@@ -1,1 +1,373 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: url("https://images.unsplash.com/photo-1468070454955-c5b6932bd08d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  border-bottom: 1px solid black;
+}
+
+header .contaner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 15px;
+  background: radial-gradient(circle at var(--x) var(--y), #00000034 0%, #233d4ed2 100%);
+}
+
+header .contaner h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #dbdbdb;
+  font-size: 6em;
+  pointer-events: none;
+}
+
+header .contaner p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #dbdbdb;
+  font-size: 2em;
+  pointer-events: none;
+}
+
+header .contaner .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
+}
+
+header .contaner .links .linkedin {
+  color: #0077b5;
+  cursor: pointer;
+}
+
+header .contaner .links .github {
+  color: black;
+  cursor: pointer;
+}
+
+header .contaner .quickLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  background: #242a2eb0;
+  padding: 2em;
+  margin-top: 2em;
+  border-radius: 16px;
+  border: 1px solid black;
+  pointer-events: inherit;
+}
+
+header .contaner .quickLinks a {
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  color: silver;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+header .contaner .quickLinks a :visited {
+  color: silver;
+}
+
+#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(45deg, #01ffc8, #01ffc8, #853ff6, #853ff6);
+  border-bottom: 1px solid black;
+}
+
+#about .aboutcontaner {
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-box-shadow: 6px 6px 6px -7px rgba(0, 0, 0, 0.486);
+          box-shadow: 6px 6px 6px -7px rgba(0, 0, 0, 0.486);
+  border-radius: 16px;
+  height: 60%;
+  width: 60%;
+  background: linear-gradient(45deg, #01ffc8, #853ff6);
+  -webkit-transition: all 700ms ease-in-out;
+  transition: all 700ms ease-in-out;
+}
+
+#about .aboutcontaner h1 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #353535;
+  font-size: 2.5em;
+  margin: 1em 2em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+#about .aboutcontaner .p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #353535;
+  font-size: 2em;
+  margin: 1em 2em;
+}
+
+#projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: auto;
+  background: url("https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+}
+
+#projects .growth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2em 0;
+  width: 50%;
+  height: 50%;
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transition: all 700ms ease-in-out;
+  transition: all 700ms ease-in-out;
+}
+
+#projects .growth h3 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #f3f3f3;
+  font-size: 2em;
+  margin: 1em;
+}
+
+#projects .growth p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #f3f3f3;
+  font-size: 1.5em;
+  margin: 1em 0 0 2em;
+  text-align: center;
+}
+
+#projects .growth p a {
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  color: #f3f3f3;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#projects .growth p a :visited {
+  color: #f3f3f3;
+}
+
+#projects .jobber {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2em 0;
+  width: 50%;
+  height: 50%;
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transition: all 700ms ease-in-out;
+  transition: all 700ms ease-in-out;
+}
+
+#projects .jobber h3 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #f3f3f3;
+  font-size: 2em;
+  margin: 1em;
+}
+
+#projects .jobber p {
+  font-family: 'Ubuntu', sans-serif;
+  color: #f3f3f3;
+  font-size: 1.5em;
+  margin: 1em 0 0 2em;
+  text-align: center;
+}
+
+#projects .jobber p a {
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  color: #f3f3f3;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#projects .jobber p a :visited {
+  color: #f3f3f3;
+}
+
+form {
+  height: 100vh;
+  width: 100vw;
+  background: url("https://images.unsplash.com/photo-1496192507750-96f7d79d74be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form .formbox {
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: rgba(12, 12, 12, 0.692);
+  border-radius: 16px;
+  height: 50vh;
+  width: 50vw;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+
+form .formbox label {
+  font-family: 'Ubuntu', sans-serif;
+  color: #f3f3f3;
+  font-size: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+form .formbox label input {
+  margin-left: 1.5em;
+  outline: none;
+  height: 2em;
+  text-align: center;
+}
+
+form .formbox label textarea {
+  margin-left: 1.5em;
+  outline: none;
+  height: 5em;
+}
+
+form .formbox button {
+  font-family: 'Ubuntu', sans-serif;
+  color: #f3f3f3;
+  font-size: 1.5em;
+  border: none;
+  padding: .5em 2em;
+  border-radius: 20px;
+  background: #0e9e86;
+  cursor: pointer;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+
+form .formbox button:hover {
+  background: #1a96fb;
+}
+/*# sourceMappingURL=style.css.map */
