@@ -31,7 +31,7 @@ window.addEventListener('scroll', () => {
     }else{
         jobber.setAttribute("style", "opacity:0; transform: scale(.5)" )
     }
-    if(position >= 3226){
+    if(position >= 3000){
         form.setAttribute("style", "opacity:1; transform: scale(1) " )
     }else{
         form.setAttribute("style", "opacity:0; transform: scale(.5)" )
