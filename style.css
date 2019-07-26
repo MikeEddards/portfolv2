@@ -370,4 +370,8 @@ form .formbox button {
 form .formbox button:hover {
   background: #1a96fb;
 }
+
+.resume {
+  height: 100vh;
+}
 /*# sourceMappingURL=style.css.map */
