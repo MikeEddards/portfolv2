@@ -78,24 +78,58 @@ header{
 
     
 }
+#skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1529891934443-f92f7cc212a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat;
+    background-size: cover;
+    ul{
+        list-style: circle;
+        border-radius: 16px;
+        height: 40%;
+        width: 60%;
+        background: snow;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        li{
+            list-style: inside;
+            font-family: 'Ubuntu', sans-serif;
+            color: rgb(53, 53, 53);
+            font-size: 1.5em;
+            text-align: center;
+            width: auto;
+        }
+
+    }
+}
 #about{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(45deg, rgb(1, 255, 200),rgb(1, 255, 200), rgb(133, 63, 246), rgb(133, 63, 246));
+    background: url('https://images.unsplash.com/photo-1533398282435-40d33c7a2d30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat;
+    background-size: cover;
     border-bottom: 1px solid black;
     .aboutcontaner{
         opacity: 0;
         transform: scale(.5);
-        box-shadow: 6px 6px 6px -7px rgba(0, 0, 0, 0.486);
         border-radius: 16px;
         height: 60%;
         width: 60%;
-        background: linear-gradient(45deg, rgb(1, 255, 200), rgb(133, 63, 246));
-     
+        background: snow;
         transition: all 700ms ease-in-out;
+     .aboutbox{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       height: 100%;
+  
         h1{
             font-family: 'Ubuntu', sans-serif;
             color: rgb(53, 53, 53);
@@ -103,12 +137,17 @@ header{
             margin: 1em 2em;
             text-decoration-line: underline;
         }
-        .p{
+        p{
             font-family: 'Ubuntu', sans-serif;
             color: rgb(53, 53, 53);
-            font-size: 2em;
+            font-size: 1.5em;
             margin: 1em 2em;
+            text-align: center;
+            
+            
         }
+     }
+        
     }
 }
 #projects{

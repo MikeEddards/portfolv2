@@ -113,6 +113,48 @@ header .contaner .quickLinks a :visited {
   color: silver;
 }
 
+#skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1529891934443-f92f7cc212a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") no-repeat;
+  background-size: cover;
+}
+
+#skills ul {
+  list-style: circle;
+  border-radius: 16px;
+  height: 40%;
+  width: 60%;
+  background: snow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#skills ul li {
+  list-style: inside;
+  font-family: 'Ubuntu', sans-serif;
+  color: #353535;
+  font-size: 1.5em;
+  text-align: center;
+  width: auto;
+}
+
 #about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -125,7 +167,8 @@ header .contaner .quickLinks a :visited {
           align-items: center;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(45deg, #01ffc8, #01ffc8, #853ff6, #853ff6);
+  background: url("https://images.unsplash.com/photo-1533398282435-40d33c7a2d30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") no-repeat;
+  background-size: cover;
   border-bottom: 1px solid black;
 }
 
@@ -133,17 +176,32 @@ header .contaner .quickLinks a :visited {
   opacity: 0;
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
-  -webkit-box-shadow: 6px 6px 6px -7px rgba(0, 0, 0, 0.486);
-          box-shadow: 6px 6px 6px -7px rgba(0, 0, 0, 0.486);
   border-radius: 16px;
   height: 60%;
   width: 60%;
-  background: linear-gradient(45deg, #01ffc8, #853ff6);
+  background: snow;
   -webkit-transition: all 700ms ease-in-out;
   transition: all 700ms ease-in-out;
 }
 
-#about .aboutcontaner h1 {
+#about .aboutcontaner .aboutbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+#about .aboutcontaner .aboutbox h1 {
   font-family: 'Ubuntu', sans-serif;
   color: #353535;
   font-size: 2.5em;
@@ -152,11 +210,12 @@ header .contaner .quickLinks a :visited {
           text-decoration-line: underline;
 }
 
-#about .aboutcontaner .p {
+#about .aboutcontaner .aboutbox p {
   font-family: 'Ubuntu', sans-serif;
   color: #353535;
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 1em 2em;
+  text-align: center;
 }
 
 #projects {

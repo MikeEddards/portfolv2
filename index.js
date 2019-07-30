@@ -14,24 +14,24 @@ window.addEventListener('scroll', () => {
     const jobber = document.querySelector('.jobber')
     const growth = document.querySelector('.growth')
     const form = document.querySelector('.formbox')
-    if(position >= 807){
+    if(position >= 10){
         about.setAttribute("style", "opacity:1; transform: scale(1) " )
     }else{
         about.setAttribute("style", "opacity:0; transform: scale(.5)" )
     }
-    if(position >= 1496){
+    if(position >= 10){
 
         growth.setAttribute("style", "opacity:1; transform: scale(1) " )
     }else{
 
         growth.setAttribute("style", "opacity:0; transform: scale(.5)" )
     }
-    if(position >= 1900){
+    if(position >= 10){
         jobber.setAttribute("style", "opacity:1; transform: scale(1) " )
     }else{
         jobber.setAttribute("style", "opacity:0; transform: scale(.5)" )
     }
-    if(position >= 3000){
+    if(position >= 10){
         form.setAttribute("style", "opacity:1; transform: scale(1) " )
     }else{
         form.setAttribute("style", "opacity:0; transform: scale(.5)" )
