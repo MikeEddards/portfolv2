@@ -230,6 +230,42 @@ header{
             }
         }
     }
+    .simpleHR{
+        display: flex;
+        opacity: 1;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2em 0 ;
+        width: 50%;
+        height: 50%;
+        opacity: 0;
+        transform: scale(.5);
+        transition: all 700ms ease-in-out;
+        h3{
+            font-family: 'Ubuntu', sans-serif;
+            color: rgb(243, 243, 243);
+            font-size: 2em;
+            margin: 1em ;
+        }
+        p{
+            font-family: 'Ubuntu', sans-serif;
+            color: rgb(243, 243, 243);
+            font-size: 1.5em;
+            margin: 1em 0 0 2em;
+            text-align: center;
+            a{
+                text-decoration: none;
+                font-family: 'Ubuntu', sans-serif;
+                color: rgb(243, 243, 243);
+                font-size: 1em;
+                cursor: pointer;
+                & :visited{
+                    color: rgb(243, 243, 243);
+                }
+            }
+        }
+    }
 }
 form{
     height: 100vh;

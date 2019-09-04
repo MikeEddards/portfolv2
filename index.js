@@ -13,6 +13,7 @@ window.addEventListener('scroll', () => {
     const about = document.querySelector('.aboutcontaner')
     const jobber = document.querySelector('.jobber')
     const growth = document.querySelector('.growth')
+    const simpleHr = document.querySelector('.simpleHR')
     const form = document.querySelector('.formbox')
     if(position >= 10){
         about.setAttribute("style", "opacity:1; transform: scale(1) " )
@@ -20,10 +21,10 @@ window.addEventListener('scroll', () => {
         about.setAttribute("style", "opacity:0; transform: scale(.5)" )
     }
     if(position >= 10){
-
+        simpleHr.setAttribute("style", "opacity:1; transform: scale(1) " )
         growth.setAttribute("style", "opacity:1; transform: scale(1) " )
     }else{
-
+        simpleHr.setAttribute("style", "opacity:0; transform: scale(.5)" )
         growth.setAttribute("style", "opacity:0; transform: scale(.5)" )
     }
     if(position >= 10){
